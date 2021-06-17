@@ -6,16 +6,29 @@
 //
 
 #import "HomeTableViewController.h"
+#import "HomeCellModel.h"
 
 @interface HomeTableViewController ()
+
+@property (strong, nonatomic) NSArray<HomeCellModel *> *dataSource;
 
 @end
 
 @implementation HomeTableViewController
 
+- (void)loadView {
+    [super loadView];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSArray *testArr = @[@"a", @"b"];
+    NSArray *strArr = testArr;
+
+    testArr = nil;
+    NSLog(@"print str is %@", strArr);
+    
 }
 
 /*
@@ -27,5 +40,12 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+#pragma mark -
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 1;
+}
+
+
 
 @end

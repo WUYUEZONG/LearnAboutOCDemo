@@ -14,6 +14,7 @@
 		1FAB3D68267B232E00DC4662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAB3D66267B232E00DC4662 /* LaunchScreen.storyboard */; };
 		1FAB3D6B267B232E00DC4662 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB3D6A267B232E00DC4662 /* main.m */; };
 		1FAB3D7B267B254300DC4662 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB3D7A267B254300DC4662 /* HomeTableViewController.m */; };
+		1FAB3D80267B262600DC4662 /* HomeCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB3D7F267B262600DC4662 /* HomeCellModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		1FAB3D6A267B232E00DC4662 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FAB3D79267B254300DC4662 /* HomeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
 		1FAB3D7A267B254300DC4662 /* HomeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		1FAB3D7E267B262600DC4662 /* HomeCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCellModel.h; sourceTree = "<group>"; };
+		1FAB3D7F267B262600DC4662 /* HomeCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCellModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 		1FAB3D71267B24B600DC4662 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				1FAB3D7D267B25E900DC4662 /* Models */,
+				1FAB3D7C267B25E100DC4662 /* Views */,
 				1FAB3D79267B254300DC4662 /* HomeTableViewController.h */,
 				1FAB3D7A267B254300DC4662 /* HomeTableViewController.m */,
 			);
@@ -90,6 +95,22 @@
 				1FAB3D5C267B232B00DC4662 /* SceneDelegate.m */,
 			);
 			path = AppBaseDelegate;
+			sourceTree = "<group>";
+		};
+		1FAB3D7C267B25E100DC4662 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FAB3D7D267B25E900DC4662 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB3D7E267B262600DC4662 /* HomeCellModel.h */,
+				1FAB3D7F267B262600DC4662 /* HomeCellModel.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +184,7 @@
 			files = (
 				1FAB3D7B267B254300DC4662 /* HomeTableViewController.m in Sources */,
 				1FAB3D5A267B232B00DC4662 /* AppDelegate.m in Sources */,
+				1FAB3D80267B262600DC4662 /* HomeCellModel.m in Sources */,
 				1FAB3D6B267B232E00DC4662 /* main.m in Sources */,
 				1FAB3D5D267B232B00DC4662 /* SceneDelegate.m in Sources */,
 			);
