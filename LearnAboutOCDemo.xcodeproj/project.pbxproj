@@ -15,6 +15,12 @@
 		1FAB3D6B267B232E00DC4662 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB3D6A267B232E00DC4662 /* main.m */; };
 		1FAB3D7B267B254300DC4662 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB3D7A267B254300DC4662 /* HomeTableViewController.m */; };
 		1FAB3D80267B262600DC4662 /* HomeCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB3D7F267B262600DC4662 /* HomeCellModel.m */; };
+		1FAB3D83267B978800DC4662 /* Weibo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAB3D82267B978800DC4662 /* Weibo.storyboard */; };
+		1FAB3D89267B9CB700DC4662 /* WeiboHomeTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB3D88267B9CB700DC4662 /* WeiboHomeTabController.m */; };
+		1FAB3D90267BA86F00DC4662 /* WeiboHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB3D8F267BA86F00DC4662 /* WeiboHomeTableViewController.m */; };
+		1FAB3D93267BA88700DC4662 /* MessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB3D92267BA88700DC4662 /* MessageTableViewController.m */; };
+		1FAB3D96267BA89000DC4662 /* FindTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB3D95267BA89000DC4662 /* FindTableViewController.m */; };
+		1FAB3D99267BA89900DC4662 /* MineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB3D98267BA89900DC4662 /* MineTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,17 @@
 		1FAB3D7A267B254300DC4662 /* HomeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
 		1FAB3D7E267B262600DC4662 /* HomeCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCellModel.h; sourceTree = "<group>"; };
 		1FAB3D7F267B262600DC4662 /* HomeCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCellModel.m; sourceTree = "<group>"; };
+		1FAB3D82267B978800DC4662 /* Weibo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weibo.storyboard; sourceTree = "<group>"; };
+		1FAB3D87267B9CB700DC4662 /* WeiboHomeTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeiboHomeTabController.h; sourceTree = "<group>"; };
+		1FAB3D88267B9CB700DC4662 /* WeiboHomeTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboHomeTabController.m; sourceTree = "<group>"; };
+		1FAB3D8E267BA86F00DC4662 /* WeiboHomeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeiboHomeTableViewController.h; sourceTree = "<group>"; };
+		1FAB3D8F267BA86F00DC4662 /* WeiboHomeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboHomeTableViewController.m; sourceTree = "<group>"; };
+		1FAB3D91267BA88700DC4662 /* MessageTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageTableViewController.h; sourceTree = "<group>"; };
+		1FAB3D92267BA88700DC4662 /* MessageTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewController.m; sourceTree = "<group>"; };
+		1FAB3D94267BA89000DC4662 /* FindTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindTableViewController.h; sourceTree = "<group>"; };
+		1FAB3D95267BA89000DC4662 /* FindTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindTableViewController.m; sourceTree = "<group>"; };
+		1FAB3D97267BA89900DC4662 /* MineTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineTableViewController.h; sourceTree = "<group>"; };
+		1FAB3D98267BA89900DC4662 /* MineTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +83,7 @@
 			children = (
 				1FAB3D72267B24D200DC4662 /* AppBaseDelegate */,
 				1FAB3D71267B24B600DC4662 /* Home */,
+				1FAB3D81267B971000DC4662 /* Weibo */,
 				1FAB3D61267B232B00DC4662 /* Main.storyboard */,
 				1FAB3D64267B232E00DC4662 /* Assets.xcassets */,
 				1FAB3D66267B232E00DC4662 /* LaunchScreen.storyboard */,
@@ -111,6 +129,56 @@
 				1FAB3D7F267B262600DC4662 /* HomeCellModel.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		1FAB3D81267B971000DC4662 /* Weibo */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB3D82267B978800DC4662 /* Weibo.storyboard */,
+				1FAB3D87267B9CB700DC4662 /* WeiboHomeTabController.h */,
+				1FAB3D88267B9CB700DC4662 /* WeiboHomeTabController.m */,
+				1FAB3D8A267BA7FB00DC4662 /* Home */,
+				1FAB3D8B267BA81000DC4662 /* Message */,
+				1FAB3D8C267BA82900DC4662 /* Find */,
+				1FAB3D8D267BA83400DC4662 /* Mine */,
+			);
+			path = Weibo;
+			sourceTree = "<group>";
+		};
+		1FAB3D8A267BA7FB00DC4662 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB3D8E267BA86F00DC4662 /* WeiboHomeTableViewController.h */,
+				1FAB3D8F267BA86F00DC4662 /* WeiboHomeTableViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1FAB3D8B267BA81000DC4662 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB3D91267BA88700DC4662 /* MessageTableViewController.h */,
+				1FAB3D92267BA88700DC4662 /* MessageTableViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		1FAB3D8C267BA82900DC4662 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB3D94267BA89000DC4662 /* FindTableViewController.h */,
+				1FAB3D95267BA89000DC4662 /* FindTableViewController.m */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		1FAB3D8D267BA83400DC4662 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				1FAB3D97267BA89900DC4662 /* MineTableViewController.h */,
+				1FAB3D98267BA89900DC4662 /* MineTableViewController.m */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FAB3D68267B232E00DC4662 /* LaunchScreen.storyboard in Resources */,
+				1FAB3D83267B978800DC4662 /* Weibo.storyboard in Resources */,
 				1FAB3D65267B232E00DC4662 /* Assets.xcassets in Resources */,
 				1FAB3D63267B232B00DC4662 /* Main.storyboard in Resources */,
 			);
@@ -183,8 +252,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FAB3D7B267B254300DC4662 /* HomeTableViewController.m in Sources */,
+				1FAB3D89267B9CB700DC4662 /* WeiboHomeTabController.m in Sources */,
+				1FAB3D99267BA89900DC4662 /* MineTableViewController.m in Sources */,
 				1FAB3D5A267B232B00DC4662 /* AppDelegate.m in Sources */,
+				1FAB3D93267BA88700DC4662 /* MessageTableViewController.m in Sources */,
+				1FAB3D90267BA86F00DC4662 /* WeiboHomeTableViewController.m in Sources */,
 				1FAB3D80267B262600DC4662 /* HomeCellModel.m in Sources */,
+				1FAB3D96267BA89000DC4662 /* FindTableViewController.m in Sources */,
 				1FAB3D6B267B232E00DC4662 /* main.m in Sources */,
 				1FAB3D5D267B232B00DC4662 /* SceneDelegate.m in Sources */,
 			);
@@ -263,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -316,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -331,6 +405,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LearnAboutOCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,6 +423,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LearnAboutOCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

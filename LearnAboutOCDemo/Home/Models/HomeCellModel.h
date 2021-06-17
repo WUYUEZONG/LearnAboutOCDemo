@@ -13,8 +13,19 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (strong, nonatomic) NSString *title;
 @property (strong, nonatomic) NSString *detail;
-@property (strong, nonatomic) NSString *imageUrl;
+@property (strong, nonatomic) NSString *image;
 
 @end
+
+@interface HomeSectionModel : NSObject
+
+@property (strong, nonatomic) NSString *title;
+@property (strong, nonatomic) NSArray<HomeCellModel *> *cell;
+
++ (NSArray<HomeSectionModel *> *)listDatas;
+
+@end
+
+
 
 NS_ASSUME_NONNULL_END
