@@ -6,10 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "VisitorTableViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WeiboHomeTableViewController : UITableViewController
+@interface WeiboHomeTableViewController : VisitorTableViewController
 
 @end
 

@@ -21,6 +21,7 @@
 		1FAB3D93267BA88700DC4662 /* MessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB3D92267BA88700DC4662 /* MessageTableViewController.m */; };
 		1FAB3D96267BA89000DC4662 /* FindTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB3D95267BA89000DC4662 /* FindTableViewController.m */; };
 		1FAB3D99267BA89900DC4662 /* MineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB3D98267BA89900DC4662 /* MineTableViewController.m */; };
+		1FF79306267C487F00649B88 /* VisitorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF79305267C487F00649B88 /* VisitorTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		1FAB3D95267BA89000DC4662 /* FindTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindTableViewController.m; sourceTree = "<group>"; };
 		1FAB3D97267BA89900DC4662 /* MineTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineTableViewController.h; sourceTree = "<group>"; };
 		1FAB3D98267BA89900DC4662 /* MineTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineTableViewController.m; sourceTree = "<group>"; };
+		1FF79304267C487F00649B88 /* VisitorTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisitorTableViewController.h; sourceTree = "<group>"; };
+		1FF79305267C487F00649B88 /* VisitorTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisitorTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				1FAB3D82267B978800DC4662 /* Weibo.storyboard */,
+				1FF79304267C487F00649B88 /* VisitorTableViewController.h */,
+				1FF79305267C487F00649B88 /* VisitorTableViewController.m */,
 				1FAB3D87267B9CB700DC4662 /* WeiboHomeTabController.h */,
 				1FAB3D88267B9CB700DC4662 /* WeiboHomeTabController.m */,
 				1FAB3D8A267BA7FB00DC4662 /* Home */,
@@ -260,6 +265,7 @@
 				1FAB3D80267B262600DC4662 /* HomeCellModel.m in Sources */,
 				1FAB3D96267BA89000DC4662 /* FindTableViewController.m in Sources */,
 				1FAB3D6B267B232E00DC4662 /* main.m in Sources */,
+				1FF79306267C487F00649B88 /* VisitorTableViewController.m in Sources */,
 				1FAB3D5D267B232B00DC4662 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
