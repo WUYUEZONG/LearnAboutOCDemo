@@ -9,9 +9,11 @@
 
 @interface VisitorTableViewController ()
 
-@property (assign, nonatomic) BOOL *userLogin;
+
 
 @end
+
+
 
 @implementation VisitorTableViewController
 
@@ -21,11 +23,17 @@
 
 - (void)setupVisitorUI {
     
-    self.view = [[UIView alloc] init];
-    
-    
-    
+    _visitorView = [[VisitorView alloc] init];
+    self.view = _visitorView;
+    self.view.backgroundColor = UIColor.whiteColor;
+    //[self setHoldStyle:@"sun.max" WithText:@"go go go, login for fun! go go go, login for fun! go go go, login for fun!"];
     
 }
 
+
+
+
+
 @end
+
+

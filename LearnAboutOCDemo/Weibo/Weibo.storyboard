@@ -86,7 +86,7 @@
                         <viewLayoutGuide key="safeArea" id="OvJ-eC-XR8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="dock.arrow.up.rectangle" selectedImage="dock.arrow.up.rectangle" catalog="system" id="vXf-8C-zCY"/>
+                    <tabBarItem key="tabBarItem" title="" image="dock.arrow.up.rectangle" catalog="system" selectedImage="dock.arrow.up.rectangle" id="vXf-8C-zCY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eHM-3l-qZi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -182,7 +182,6 @@
     </scenes>
     <resources>
         <image name="dock.arrow.up.rectangle" catalog="system" width="128" height="93"/>
-        <image name="dock.arrow.up.rectangle" width="128" height="128"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="message" catalog="system" width="128" height="113"/>

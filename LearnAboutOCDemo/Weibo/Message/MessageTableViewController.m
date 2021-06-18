@@ -17,6 +17,7 @@
     [super viewDidLoad];
     
     self.title = @"MESSAGE";
+    [self.visitorView setHoldStyle:@"sun.haze.fill" WithText:@"some text ..."];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     

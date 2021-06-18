@@ -22,6 +22,7 @@
 		1FAB3D96267BA89000DC4662 /* FindTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB3D95267BA89000DC4662 /* FindTableViewController.m */; };
 		1FAB3D99267BA89900DC4662 /* MineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB3D98267BA89900DC4662 /* MineTableViewController.m */; };
 		1FF79306267C487F00649B88 /* VisitorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF79305267C487F00649B88 /* VisitorTableViewController.m */; };
+		1FF7930A267C730900649B88 /* VisitorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF79309267C730900649B88 /* VisitorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,8 @@
 		1FAB3D98267BA89900DC4662 /* MineTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineTableViewController.m; sourceTree = "<group>"; };
 		1FF79304267C487F00649B88 /* VisitorTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisitorTableViewController.h; sourceTree = "<group>"; };
 		1FF79305267C487F00649B88 /* VisitorTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisitorTableViewController.m; sourceTree = "<group>"; };
+		1FF79308267C730900649B88 /* VisitorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisitorView.h; sourceTree = "<group>"; };
+		1FF79309267C730900649B88 /* VisitorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisitorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,7 @@
 		1FAB3D81267B971000DC4662 /* Weibo */ = {
 			isa = PBXGroup;
 			children = (
+				1FF79307267C72F100649B88 /* Views */,
 				1FAB3D82267B978800DC4662 /* Weibo.storyboard */,
 				1FF79304267C487F00649B88 /* VisitorTableViewController.h */,
 				1FF79305267C487F00649B88 /* VisitorTableViewController.m */,
@@ -184,6 +188,15 @@
 				1FAB3D98267BA89900DC4662 /* MineTableViewController.m */,
 			);
 			path = Mine;
+			sourceTree = "<group>";
+		};
+		1FF79307267C72F100649B88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FF79308267C730900649B88 /* VisitorView.h */,
+				1FF79309267C730900649B88 /* VisitorView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 				1FAB3D93267BA88700DC4662 /* MessageTableViewController.m in Sources */,
 				1FAB3D90267BA86F00DC4662 /* WeiboHomeTableViewController.m in Sources */,
 				1FAB3D80267B262600DC4662 /* HomeCellModel.m in Sources */,
+				1FF7930A267C730900649B88 /* VisitorView.m in Sources */,
 				1FAB3D96267BA89000DC4662 /* FindTableViewController.m in Sources */,
 				1FAB3D6B267B232E00DC4662 /* main.m in Sources */,
 				1FF79306267C487F00649B88 /* VisitorTableViewController.m in Sources */,

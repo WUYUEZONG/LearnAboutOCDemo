@@ -6,10 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "VisitorTableViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FindTableViewController : UITableViewController
+@interface FindTableViewController : VisitorTableViewController
 
 @end
 

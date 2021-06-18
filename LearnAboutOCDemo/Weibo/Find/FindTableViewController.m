@@ -17,6 +17,7 @@
     [super viewDidLoad];
     
     self.title = @"FIND";
+    [self.visitorView setHoldStyle:@"sun.dust.fill" WithText:@"some text ..."];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     

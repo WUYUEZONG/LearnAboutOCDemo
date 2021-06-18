@@ -16,6 +16,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self.visitorView setHoldStyle:@"sunrise" WithText:@"some text ..."];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
